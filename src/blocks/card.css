@@ -1,0 +1,44 @@
+.card {
+  width: 20vw;
+  height: 80vh;
+  position: fixed;
+  top: 10vh;
+  left: 2.5vw;
+  color: #fff;
+  background-color: #778DA9;
+  border-radius: 20px;
+}
+
+.card__header {
+  font-size: 30px;
+  text-align: center;
+}
+
+.card__values {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  align-items: center;
+  justify-content: center;
+}
+
+.card__value {
+  font-size: 120px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.card__suit {
+  font-size: 200px;
+}
+
+.card__suit-black {
+  color: #000;
+}
+
+.card__suit-red {
+  color: #6a040f;
+}

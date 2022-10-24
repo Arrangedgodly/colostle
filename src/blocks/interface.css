@@ -1,0 +1,9 @@
+.interface {
+  width: 50vw;
+  height: 80vh;
+  background-color: #415A77;
+  margin: auto;
+  position: relative;
+  top: 10vh;
+  border-radius: 30px;
+}
