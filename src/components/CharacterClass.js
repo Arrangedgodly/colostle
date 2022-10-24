@@ -5,10 +5,10 @@ function CharacterClass({ characterClass, handleClassChange }) {
       {characterClass === "Armed" ? (
         <>
           <p className="background__text background__text-alt">
-            Exploration Score: 3
+            Exploration Score: ☆☆☆
           </p>
           <p className="background__text background__text-alt">
-            Combat Score: 4
+            Combat Score: ☆☆☆☆
           </p>
           <p className="background__text background__text-alt">
             The Armed quite literally have an arm from a Rook connected to them
@@ -32,10 +32,10 @@ function CharacterClass({ characterClass, handleClassChange }) {
       ) : characterClass === "Followed" ? (
         <>
           <p className="background__text background__text-alt">
-            Exploration Score: 5
+            Exploration Score: ☆☆☆☆☆
           </p>
           <p className="background__text background__text-alt">
-            Combat Score: 3
+            Combat Score: ☆☆☆
           </p>
           <p className="background__text background__text-alt">
             The Followed have a small Rook companion, like a pet or familiar
@@ -58,10 +58,10 @@ function CharacterClass({ characterClass, handleClassChange }) {
       ) : characterClass === "Helmed" ? (
         <>
           <p className="background__text background__text-alt">
-            Exploration Score: 2
+            Exploration Score: ☆☆
           </p>
           <p className="background__text background__text-alt">
-            Combat Score: 5
+            Combat Score: ☆☆☆☆☆
           </p>
           <p className="background__text background__text-alt">
             The Helmed harvest a piece of strange machinery from the very core
@@ -83,10 +83,10 @@ function CharacterClass({ characterClass, handleClassChange }) {
       ) : characterClass === "Mounted" ? (
         <>
           <p className="background__text background__text-alt">
-            Exploration Score: 5
+            Exploration Score: ☆☆☆☆☆
           </p>
           <p className="background__text background__text-alt">
-            Combat Score: 2
+            Combat Score: ☆☆
           </p>
           <p className="background__text background__text-alt">
             The Mounted ride an adapted mechanism taken from Rook parts, as a
