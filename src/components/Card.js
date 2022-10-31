@@ -4,7 +4,6 @@ import { checkBlackSuit } from '../utils/constants';
 function Card({ card }) {
   return (
     <div className="card">
-      <p className="card__header">Current Card:</p>
       <div className="card__values">
         <p className="card__value">{card.Value}</p>
         <p className={checkBlackSuit(card) ? "card__value card__suit card__suit-black" : "card__value card__suit card__suit-red" }>{card.Suit}</p>
